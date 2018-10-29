@@ -1,0 +1,57 @@
+body{
+  font-family: 'Indie Flower', cursive;
+  font-size:2rem;
+}
+
+#title{
+  font-size:4rem;
+}
+
+.sound {
+  position: relative;
+  height: 450px;
+  width: 340px;
+  margin: 0px auto;
+  margin-top: 50px;
+  padding: 15px;
+  
+}
+
+.tiles {
+	opacity: 0.5;
+	height: 290px;
+    border-radius: 150px;
+	position: absolute;
+    border:black solid 5px;
+}
+
+.tiles:disabled {
+	opacity: 0.5;
+    border:black solid 5px;
+}
+
+.red {
+	  background: #E00000;
+	  clip: rect(0px, 300px, 150px, 150px);
+	  width: 296px;
+
+}
+
+.blue {
+	  background: #0000FF;
+	  clip: rect(0px, 150px, 150px, 0px);
+	  width: 300px;
+
+}
+
+.yellow {
+	  background: #B0B000;
+	  clip: rect(150px, 150px, 300px, 0px);
+	  width: 300px;
+}
+
+.green {
+	  background: #00B000;
+	  clip: rect(150px,300px, 300px, 150px);
+	  width: 296px;
+}
